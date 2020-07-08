@@ -73,8 +73,5 @@ for c in contours:
 cv2.imshow('thresh', thresh)
 cv2.imshow('dilate', dilate)
 cv2.imshow('image', img)
-cv2.imwrite('output.png',img)
-cv2.waitKey()
-cv2.imwrite('output1.png',new )
-
+cv2.imwrite('modoutput.png',img)
 cv2.waitKey()
